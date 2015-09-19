@@ -49,7 +49,7 @@ darren.rank = 4
 # Do the computation to find each player's new skill estimate.
 
 # trueskill.AdjustPlayers([alice, bob, chris, darren])
-for i in xrange(0,1000):
+for i in xrange(0,100):
     trueskill.AdjustPlayers([alice, bob])
     trueskill.AdjustPlayers([chris, bob])
 
